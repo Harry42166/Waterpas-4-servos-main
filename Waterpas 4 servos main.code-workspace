@@ -11,6 +11,10 @@
 		{
 			"name": "Waterpas MPU test",
 			"path": "../Waterpas MPU test"
+		},
+		{
+			"name": "Waterpas-Project",
+			"path": "../Waterpas-Project"
 		}
 	],
 	"settings": {}
