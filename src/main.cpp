@@ -8,7 +8,7 @@
 #define SERVO_LF_PIN 13 // Linksvoor
 #define SERVO_RF_PIN 12 // Rechtsvoor
 #define SERVO_LB_PIN 14 // Linksachter
-#define SERVO_RB_PIN 27 // Rechtsachter
+#define SERVO_RB_PIN 27 // Rechtsachter hallo
 
 // --- MPU6050 Object aanmaken ---
 MPU6050 mpu;
