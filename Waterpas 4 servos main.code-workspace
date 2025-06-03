@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Waterpas 4 servos main",
+			"path": "."
+		},
+		{
+			"name": "Waterpas servo test",
+			"path": "../Waterpas servo test"
+		},
+		{
+			"name": "Waterpas MPU test",
+			"path": "../Waterpas MPU test"
+		}
+	],
+	"settings": {}
+}
