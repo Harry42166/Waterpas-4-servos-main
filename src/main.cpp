@@ -127,6 +127,12 @@ void loop() {
   Serial.print(" LB: "); Serial.print(angleLB);
   Serial.print(" RB: "); Serial.println(angleRB);
 
-  delay(50); // Een kleine vertraging om de loop stabiel te houden
-             // Je kunt experimenteren met deze waarde, afhankelijk van gewenste responsiviteit.
+  static unsigned long lastUpdate = 0;
+  unsigned long now = millis();
+  const unsigned long interval = 50; // 50 ms interval
+
+  if (now - lastUpdate < interval) {
+    return;
+  }
+  lastUpdate = now;
 }
